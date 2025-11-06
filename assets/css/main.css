@@ -3605,3 +3605,17 @@ input, select, textarea {
 	#intro header p {
 		text-transform: none;
 	}
+
+	.post header h2,
+	.post header p,
+	.mini-post header h3,
+	.mini-post header p,
+	.mini-post header time,
+	.post header h3,
+	.post header time{
+		text-transform: none !important;
+	}
+
+	.post > footer .stats li {
+	border-left: none !important;
+	}
