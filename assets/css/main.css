@@ -3606,11 +3606,6 @@ input, select, textarea {
 		text-transform: none;
 	}
 
-	.post .title h2,
-	.post header h3 {
-		margin-bottom: 0.4em !important;
-	}
-
 	.post header h2,
 	.post header p,
 	.mini-post header h3,
@@ -3619,6 +3614,12 @@ input, select, textarea {
 	.posts header h3,
 	.posts time.published {
 		text-transform: none !important;
+	}
+
+	.mini-post header p {
+		margin-top: 0.25em;
+		margin-bottom: 0.25em;
+		line-height: 1.4em;
 	}
 
 	.post > footer .stats li {
