@@ -3606,6 +3606,8 @@ input, select, textarea {
 		text-transform: none;
 	}
 
+	.links li a h3,
+	.links li a p
 	.post header h2,
 	.post header p,
 	.mini-post header h3,
@@ -3617,8 +3619,8 @@ input, select, textarea {
 	}
 
 	.mini-post header p {
-		margin-top: 0.0em;
-		margin-bottom: 0.0em;
+		margin-top: 0.25em;
+		margin-bottom: 0.75em;
 		line-height: 1.4em;
 	}
 
