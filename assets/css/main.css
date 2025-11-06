@@ -3610,9 +3610,8 @@ input, select, textarea {
 	.post header p,
 	.mini-post header h3,
 	.mini-post header p,
-	.mini-post header time,
-	.post header h3,
-	.post header time{
+	.mini-post time.published,
+	.posts time.published {
 		text-transform: none !important;
 	}
 
