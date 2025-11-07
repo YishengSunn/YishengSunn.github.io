@@ -3615,24 +3615,33 @@ input, select, textarea {
 		text-transform: none;
 	}
 
-	.links li a h3,
-	.links li a p,
-	.post header h2,
-	.post header p,
-	.mini-post header h3,
-	.mini-post header p,
-	.mini-post time.published,
-	.posts header h3,
-	.posts time.published {
-		text-transform: none !important;
-	}
+.links li a h3,
+.links li a p,
+.post header h2,
+.post header p,
+.mini-post header h3,
+.mini-post header p,
+.mini-post time.published,
+.posts header h3,
+.posts time.published {
+	text-transform: none !important;
+}
 
-	.mini-post header p {
-		margin-top: 0.25em;
-		margin-bottom: 1.3em;
-		line-height: 1.4em;
-	}
+.mini-post header p {
+	margin-top: 0.25em;
+	margin-bottom: 1.3em;
+	line-height: 1.4em;
+}
 
-	.post > footer .stats li {
-	border-left: none !important;
-	}
+.post > footer .stats li {
+border-left: none !important;
+}
+
+.caption-with-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 0.5em;
+	font-size: 0.85em;
+	color: #666;
+}
