@@ -3614,9 +3614,10 @@ input, select, textarea {
 	#intro header p {
 		text-transform: none;
 	}
-.h2,
+
 .links li a h3,
 .links li a p,
+.post h2,
 .post header h2,
 .post header p,
 .mini-post header h3,
